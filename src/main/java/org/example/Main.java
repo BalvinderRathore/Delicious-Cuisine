@@ -92,7 +92,7 @@ public class Main {
         }
         System.out.println("Enter the Payment Mode-");
         System.out.println("1. Google Pay\n2. Paytm\n3. PayPal");
-        String pay=sc.nextLine();
+        int way=sc.nextInt();
         System.out.println("Your Payment is being Processed");
         int i = 0;
         while(i < 21) {
